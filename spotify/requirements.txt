@@ -1,0 +1,31 @@
+# Core dependencies
+spotipy>=2.19.0
+requests>=2.26.0
+python-dotenv>=0.19.0
+
+# Time and location services
+timezonefinder>=6.0.0
+astral>=3.0
+pytz>=2021.3
+
+# Data handling
+pandas>=1.3.0
+numpy>=1.21.0
+
+# Logging and monitoring
+logging>=0.5.1.2
+colorlog>=6.0.0
+
+# Error handling and retries
+tenacity>=8.0.1
+backoff>=2.0.0
+
+# Development dependencies
+pytest>=6.2.5
+black>=21.12b0
+flake8>=4.0.1
+isort>=5.10.1
+
+# Optional - for advanced features
+tqdm>=4.62.0  # For progress bars
+schedule>=1.1.0  # For scheduled tasks
